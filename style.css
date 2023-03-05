@@ -1,0 +1,113 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(149, 141, 111);
+}
+.container{
+    margin: 0 auto;
+    width: 500px;
+}
+.info{
+    position: relative;
+    background-color: white;
+    height: 500px;
+}
+time{
+    position:absolute;
+    top: 10px;
+    left: 30px;
+    font-weight: bold;
+}
+ .bx-wifi{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    font-size: 20px;
+}
+.bx-signal-5{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+}
+.image img{
+    left: 140px;
+    top: 90px;
+   position: absolute;
+    width: 200px;
+    border-radius: 50%;
+}
+.about-info{
+    position: relative;
+}
+.about-info h1{
+    position: absolute;
+    left: 180px;
+    top: 300px;
+}
+.follow{
+    position: absolute;
+    left: 116px;
+    top: 370px;
+    padding: 10px 65px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+.message{
+    position: absolute;
+    left: 140px;
+    top: 430px;
+    padding: 10px 65px;
+    border-radius: 12px;
+}
+/* section qismi uchun */
+.yourself{
+    position: relative;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.union img{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.yourself h2{
+    position: absolute;
+    top: 30px;
+    left: 78px;
+}
+.email{
+    position: absolute;
+    left: 80px;
+    top: 80px;
+    width: 343px;
+    height: 52px;
+}
+.password{
+    position: absolute;
+    left: 80px;
+    top: 150px;
+    width: 343px;
+    height: 52px;
+}
+.yourself button{
+    position: absolute;
+    left: 150px;
+    top:220px ;
+    padding: 10px 80px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.yourself button:hover{
+    background-color: #546;
+    color: aquamarine;
+    transition: 1s;
+}
